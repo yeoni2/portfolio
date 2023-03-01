@@ -12,6 +12,9 @@ window.onload=function(){
 function big_func0() {
     comm_func(0)
 }
+function big_func1() {
+    comm_func(1)
+}
 function comm_func(js) {
     let big, pic, close;
     big=document.querySelector(".big");
