@@ -18,6 +18,9 @@ function big_func1() {
 function big_func2() {
     comm_func(2)
 }
+function big_func3() {
+    comm_func(3)
+}
 function comm_func(js) {
     let big, pic, close;
     big=document.querySelector(".big");
