@@ -44,6 +44,9 @@ function detail_func0(){
 function detail_func1(){
     design_func(1)
 }
+function detail_func2(){
+    design_func(2)
+}
 function design_func(js){
     let closeup, end, deta;
     closeup=document.querySelector(".closeup");
