@@ -186,10 +186,13 @@ html { font-size: 16px; }
     margin-left: 3%;
 }
 /* web */
-/* .web1{
+.web1{
     width: 100%; height: 300px;
     display: flex;
-} */
+}
+.web2{
+    margin-top: 30px;
+}
 .web1> div,
 .web2> div{
     width: 30%; height: 100%;
