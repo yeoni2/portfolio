@@ -1,7 +1,7 @@
 window.onload=function(){
     AOS.init();
     $("html, body").animate({ "scrollTop": "0" },100);
-    for(i=0; i<4; i++) {
+    for(i=0; i<5; i++) {
         this["img"+i]=document.getElementById("img"+i);
         this["img"+i].style.background="url(img/img"+i+".jpg)";
         this["img"+i].style.backgroundSize="100% 100%";
@@ -24,6 +24,9 @@ function big_func2() {
 }
 function big_func3() {
     comm_func(3)
+}
+function big_func4() {
+    comm_func(4)
 }
 function comm_func(js) {
     let big, pic, close;
