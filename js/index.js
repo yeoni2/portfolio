@@ -1,13 +1,13 @@
 window.onload=function(){
     AOS.init();
     $("html, body").animate({ "scrollTop": "0" },100);
-    for(i=0; i<5; i++) {
+    for(i=0; i<4; i++) {
         this["img"+i]=document.getElementById("img"+i);
         this["img"+i].style.background="url(img/img"+i+".jpg)";
         this["img"+i].style.backgroundSize="100% 100%";
         this["img"+i].addEventListener("click",this["big_func"+i] );
     }
-    for(a=0; a<4; a++){
+    for(a=0; a<3; a++){
         this["detail"+a]=document.getElementById("detail"+a);
         this["img"+a].style.background="url(img/detail"+a+".jpg)";
         this["detail"+a].addEventListener("click",this["detail_func"+a] );
@@ -24,9 +24,6 @@ function big_func2() {
 }
 function big_func3() {
     comm_func(3)
-}
-function big_func4() {
-    comm_func(4)
 }
 function comm_func(js) {
     let big, pic, close;
@@ -49,9 +46,6 @@ function detail_func1(){
 }
 function detail_func2(){
     design_func(2)
-}
-function detail_func3(){
-    design_func(3)
 }
 function design_func(js){
     let closeup, end, deta;
